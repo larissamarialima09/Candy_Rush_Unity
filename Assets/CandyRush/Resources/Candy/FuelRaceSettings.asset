@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4712eb16291f68747bce6810100df620, type: 3}
+  m_Name: FuelRaceSettings
+  m_EditorClassIdentifier: Assembly-CSharp::CandyRush.Integrated.FuelRaceSettings
+  consumptionPerMeter: 0.005
+  shortDriftCost: 15
+  longDriftCost: 20
+  turboCost: 30
+  lowFuelThreshold: 25
+  emptySpeedFactor: 0.3
+  longDriftSeconds: 1.8
+  minimumDriftSpeed: 6
+  minimumDriftSteer: 0.25
+  driftRearGrip: 0.55
+  shortDriftCharge: 0.1
+  longDriftCharge: 0.2
+  shortDriftBoostSeconds: 0.55
+  longDriftBoostSeconds: 0.9
+  turboSeconds: 1.85
+  turboForce: 1550
+  turboSpeedBonus: 8
+  autoAcceleration: 0
+  automaticDrift: 0
+  driftAction: {fileID: 0}
+  turboAction: {fileID: 0}
+  driftBinding: <Keyboard>/leftShift
+  alternativeDriftBinding: <Keyboard>/space
+  turboBinding: <Keyboard>/leftCtrl
+  alternativeTurboBinding: <Keyboard>/e
+  pitFraction: 0.035
+  refuelSeconds: 2.5
+  pumpCount: 2
+  pitSpeed: 7
+  approachWarningMeters: 85
+  playerRefuelRadius: 3.4
+  mandatoryPlayerStop: 0
